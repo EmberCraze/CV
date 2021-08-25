@@ -15,7 +15,7 @@ This project taught me the following:
 
 - To use Cargo to compile and configure the library
 - To create, test, and compile a rust library
-- To use result as a return type to detect possible errors
+- To use Result as a return type to detect possible errors
 - To establish different error types to clerify the type of error that has occured
 - To use different datatypes and vector types such as String, &str, and Vec\<char> when required
 - To iterate and enumerate vectors to process their data
@@ -34,4 +34,8 @@ https://github.com/EmberCraze/rust_calculator
 A graphical calculator developed in rust. <br />The back-end of the calculator uses the [infix to postfix](https://github.com/EmberCraze/rust_prefix_to_postfix) to convert the input to postfix notation and then uses another algorithm to parse the posfix notation and calculate the parsed values two elements at a time. <br /> The back-end is compiled to a wasm binary that the front-end can access through [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen). <br /> The front-end uses both JavaScript and HTML to show a functional graphical interface and bind graphical buttons to functions in the wasm binary.
 
 ### Lessons Leaned
-TODO
+
+- To use HTML + CSS for a graphical interface with interaction animations
+- To bind rust WASM functions to JavaScript calls using wasm-bindgen
+- To use rust matching in a table matching like format where a conditions is linked to a function
+- To parse strings and process their data
